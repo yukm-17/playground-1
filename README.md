@@ -1,36 +1,13 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## 왜 만들었나요
 
-## Getting Started
+실무에서 '전체'의 의미를 두고 프론트/백엔드 관점이 달랐던 사례를 프론트 관점에서 어떻게 단순화 했는지 정리했습니다.
 
-First, run the development server:
+## 어떤 판단을 했나요
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+'전체'는 모든 카테고리의 교집합이라고 판단했으나 백엔드에서는 별도 카테고리로 지정해야 한다는 의견이 있었고, 논의 끝에 명시적으로 '전체'로 표기하기로 했습니다.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 핵심
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- '전체'를 교집합으로 처리하지 않은 이유
+- '전체'를 명시적인 상태값으로 둔 이유
+- API와 그 사용방식을 단순화함
